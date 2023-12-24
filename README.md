@@ -31,7 +31,17 @@ Adam optimizer is used and binary_crossentropy is used as loss function (to calc
 5. Testing and Evaluation:
 The model was evaluated on the testing set to assess its accuracy.
 Results:
-The model achieved a test accuracy of 70 % on the evaluation set.
+The model achieved a test accuracy of 76 % on the evaluation set.
+Classification Report:
+              precision    recall  f1-score   support
+
+           0       0.80      0.80      0.80        10
+           1       0.71      0.71      0.71         7
+
+    accuracy                           0.76        17
+   macro avg       0.76      0.76      0.76        17
+weighted avg       0.76      0.76      0.76        17
+
 
 Future Improvements:
 To enhance the model's robustness, different architecture, adjustment of hyper parameters and with larger dataset can be done.
